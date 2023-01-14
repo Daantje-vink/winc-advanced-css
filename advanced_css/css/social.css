@@ -1,0 +1,44 @@
+.social {
+  width: 250px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: -200px;
+  top: 30%;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+  margin: 1em;
+}
+
+.social a {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.blog {
+  background-color: #e17b77;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+
+.twitter {
+  background-color: #00aced;
+}
+
+.github {
+  background-color: #333;
+}
+
+.linkedin {
+  background-color: #007bb6;
+}
+
+.social :hover {
+  transform: translateX(-183px);
+}/*# sourceMappingURL=social.css.map */
